@@ -1,0 +1,16 @@
+create table user_details
+(
+    id  INT(100) primary key auto_increment,
+    Applicant_Name varchar(250),
+    Id_Number varchar(250),
+    Contact_Email varchar(250),
+    Date_of_Birth varchar(100),
+    Contact_Address varchar(250),
+    Contact_Phone varchar(250),
+    Desc_Business varchar(150),
+    Interest varchar(100),
+    Inv_Amount varchar(250),
+    Geographical_Area varchar(100),
+    Add_Notes varchar(200)
+
+);

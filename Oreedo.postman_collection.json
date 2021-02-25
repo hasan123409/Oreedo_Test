@@ -1,0 +1,92 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Oreedo",
+		"_postman_id": "9b02691c-5797-5501-330e-a46800e7bf65",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Orredo POST Request",
+			"request": {
+				"url": "http://localhost:8080/api/signup",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Applicant_Name",
+							"value": "Hasan",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Id_Number",
+							"value": "908728365379",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Contact_Email",
+							"value": "hasanrizvi@gmail.com",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Date_of_Birth",
+							"value": "1994/09/05",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Contact_Address",
+							"value": "Ulwe,Mumbai",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Contact_Phone",
+							"value": "9082961532",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Desc_Business",
+							"value": "I feel good about my business",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Interest",
+							"value": "I like Guccie shoe",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Inv_Amount",
+							"value": "10023334532",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Geographical_Area",
+							"value": "Navi Mumbai",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Add_Notes",
+							"value": "The business is going amazing",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

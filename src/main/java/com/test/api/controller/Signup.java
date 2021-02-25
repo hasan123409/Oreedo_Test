@@ -28,7 +28,7 @@ import com.test.api.repository.Fetchdata;
 
 @RestController
 @RequestMapping(path="/api")
-//@CrossOrigin(origins= "https://localhost:4200")
+@CrossOrigin(origins= {"https://localhost:4200"})
 
 public class Signup {
 
